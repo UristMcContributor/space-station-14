@@ -10,6 +10,12 @@ namespace Content.Server.Guardian
     [RegisterComponent]
     public class GuardianComponent : Component
     {
+    
+    
+    
+    
+    
+    
         /// <summary>
         /// The guardian host entity
         /// </summary>
@@ -28,11 +34,6 @@ namespace Content.Server.Guardian
         [ViewVariables]
         [DataField("distanceAllowed")]
         public float DistanceAllowed { get; set; } = 5f;
-
-        /// <summary>
-        /// If the guardian is currently manifested
-        /// </summary>
-        public bool GuardianLoose = false;
 
     }
 }
