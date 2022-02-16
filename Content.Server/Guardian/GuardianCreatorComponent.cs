@@ -12,6 +12,20 @@ namespace Content.Server.Guardian
     [RegisterComponent]
     public sealed class GuardianCreatorComponent : Component
     {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
         /// <summary>
         /// Counts as spent upon exhausting the injection
         /// </summary>
